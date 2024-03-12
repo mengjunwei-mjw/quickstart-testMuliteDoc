@@ -50,7 +50,7 @@ Keycloak部署涉及的费用主要涉及：
 5. 选择/新建专有网络(VPC)和交换机(VSW)
 6. 选择是否接入阿里云认证。如选择则在您输入的RealmName中构建一个Identity provider和一个Client。同时在阿里云[OAuth](https://ram.console.aliyun.com/)处构建认证Client。
 7. 输入keycloak的管理账号和密码
-   <img src="doc/2.png" alt="Image">
+   <img src="../docs/2.png" alt="Image">
 
 ## 使用
 ### 访问控制台
