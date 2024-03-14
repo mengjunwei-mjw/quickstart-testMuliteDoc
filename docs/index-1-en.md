@@ -15,7 +15,7 @@ This topic describes how to establish a dedicated server for Palworld in Alibaba
 
 (2) Visit the "[Rapid deployment of Palworld online services](https://computenest.console.aliyun.com/service/instance/create/ap-southeast-1?type=user&ServiceId=service-1cdad6b8bab640d4bf55)" page  and click Launch Now.
 
-![image](1.png)
+![image](../docs-模板1/1.png)
 
 Most required settings, including the network protocol and port (UDP protocol and port 8211), are pre-configured.
 ## Step 2: Configure the ECS instance
@@ -41,13 +41,13 @@ In the Terms of Service section, read and select the check box to agree to the t
 
 If the Submitted message appears, it indicates that the order was created successfully. You can click View Service to view the instance.
 
-![image](4.png)
+![image](../docs-模板1/4.png)
 
 If you create a subscription-type order, you'll find an unpaid instance, click "Complete Payment" and finish the payment, the instance will be deployed immediately.
 
 ![image](4-1.jpg)
 
-![image](5.png)
+![image](../docs-模板1/5.png)
 
 ## Step 4: Obtain the IP address of the ECS instance
 The ECS instance can be created in less than a minute. When the status of the instance changes to **Deployed**, click the ID of the instance to go to the instance details page.

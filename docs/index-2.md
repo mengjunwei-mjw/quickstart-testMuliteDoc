@@ -15,7 +15,7 @@ This topic describes how to establish a dedicated server for Palworld in Alibaba
 
 (2) Visit the "[Rapid deployment of Palworld online services](https://computenest.console.aliyun.com/service/instance/create/ap-southeast-1?type=user&ServiceId=service-1cdad6b8bab640d4bf55)" page  and click Launch Now.
 
-![image](1.png)
+![image](../docs-模板2/1.png)
 
 Most required settings, including the network protocol and port (UDP protocol and port 8211), are pre-configured.
 ## Step 2: Configure the ECS instance
@@ -29,7 +29,7 @@ On the Create Service Instance page, configure the following parameters:
 
 (4) **Select the ECS instance specifications**. Higher specifications result in a smoother gaming experience. Palworld is a memory-intensive game. We recommend that you specify 4vCPU 16GiB or higher specifications for your ECS instance. 4vCPU 16GiB is recommenced by Pocketpair, developer of the game. For more information, visit https://tech.palworldgame.com/dedicated-server-guide. We recommend that you set the **Internet Charge Type** parameter to **Pay-by-bandwidth**. The pay-by-bandwidth metering method does not impose limits on the bandwidth, which reduces latency and provides a better gaming experience.
 
-![image](2.png)
+![image](../docs-模板2/2.png)
 
 (5) **Instance Password**: Enter a password for the ECS instance. The password is required when you log on to the ECS instance.
 (6) **Availability Zone**: Select the zone in which the ECS instance resides. We recommend that you use the default zone.
@@ -41,13 +41,13 @@ In the Terms of Service section, read and select the check box to agree to the t
 
 If the Submitted message appears, it indicates that the order was created successfully. You can click View Service to view the instance.
 
-![image](4.png)
+![image](../docs-模板2/4.png)
 
 If you create a subscription-type order, you'll find an unpaid instance, click "Complete Payment" and finish the payment, the instance will be deployed immediately.
 
 ![image](4-1.jpg)
 
-![image](5.png)
+![image](../docs-模板2/5.png)
 
 ## Step 4: Obtain the IP address of the ECS instance
 The ECS instance can be created in less than a minute. When the status of the instance changes to **Deployed**, click the ID of the instance to go to the instance details page.
